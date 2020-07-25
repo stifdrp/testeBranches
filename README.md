@@ -21,7 +21,7 @@ GitHub:
 
 - Criar issue
 
-Na máquina local:
+Máquina local:
 
 - Entrar na master e atualizar o branch local:
   - `git checkout master`
