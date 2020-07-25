@@ -4,7 +4,7 @@
 
 GitHub:
 
-- Criar o repo
+- Criar o repositório
 
 Máquina Local:
 
@@ -12,10 +12,12 @@ Máquina Local:
   - `git clone git@repoaddress/repo.git`
 - Criar um branch chamado develop:
   - `git checkout -b develop`
-- Mandar esse branch para o remoto:
+- Mandar o branch develop para o remoto:
   - `git push origin develop`
+- Trackear o branch develop local o com develop remoto:
+  - `git branch --set-upstream-to=origin/develop`
 
-## Contribuindo
+## Nova Funcionalidade
 
 GitHub:
 
@@ -23,23 +25,23 @@ GitHub:
 
 Máquina local:
 
-- Entrar na master e atualizar o branch local:
+- Entrar no branch master e atualizá-lo:
   - `git checkout master`
   - `git pull`
-- Entrar em develop e atualizar o branch local
+- Entrar no develop e atualizá-lo:
   - `git checkout develop`
   - `git pull`
-- Criar uma branch nova para resolver a issue
+- Criar um branch novo para resolver a issue:
   - `git checkout -b issue-issueid`
-- Commit das alterações
+- Commit das alterações:
   - `git add .`
   - `git commit -m "msg do commit resolve #issueid`
-- Merge da branch da issue para develop
+- Merge do branch da issue para develop:
   - `git checkout develop`
   - `git merge --no-ff issue-issueid`
-- Mandar develop pro Remoto
+- Mandar o branch develop pro remoto:
   - `git push origin develop`
-- Ver se deu tudo certo no servidor de homologação
+- Ver se deu tudo certo no servidor de homologação:
 
 GitHub:
 
