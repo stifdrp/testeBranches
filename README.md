@@ -1,3 +1,3 @@
 # GitFlow TIFDRP
 
-[Todas as informações estão em:)[https://github.com/stifdrp/gitFlow]
+[Todas as informações estão em:](https://github.com/stifdrp/gitFlow)
